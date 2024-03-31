@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "Rucha Kulkarni"
 title_separator          : "-"
-name                     : &name "Rucha Kulkarni"
-description              : &description "personal description"
+name                     : &name 
+description              : &description 
 url                      : https://ruchak-dev.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ruchak-dev/ruchak-dev.github.io"
