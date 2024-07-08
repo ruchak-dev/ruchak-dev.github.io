@@ -19,7 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 2em 2em 2em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -40,7 +40,7 @@
 
   ul {
     margin: 0;
-    padding: 0;
+    padding: 1em;
     clear: both;
     list-style-type: none;
   }
