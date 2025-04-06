@@ -21,14 +21,14 @@ repository               : "ruchak-dev/ruchak-dev.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "rucha6.png"
   name             : "Rucha Kulkarni"
   pronouns         : "she/her" # example: "she/her"  
   bio              : "PhD Student in Biomedical Engineering"
   #location         : "Earth"
   employer         : "University of Delaware"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "rnk@udel.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -206,7 +206,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
     output: true
