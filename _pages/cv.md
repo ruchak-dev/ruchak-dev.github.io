@@ -11,9 +11,27 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Biomedical Engineering, University of Delaware, 2028 (expected)
+* Ph.D in Biomedical Engineering, University of Delaware, 2027 (expected)
 * M.S. in Biomedical Engineering, Northwestern University, 2023
 * B.S. in Electronics and Telecommunication Engineering, MKSSS Cummins College of Engineering for Women, 2021
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 <!-- Work experience
 ======
@@ -41,23 +59,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
   
 Service and leadership
 ======
